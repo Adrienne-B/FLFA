@@ -1,22 +1,31 @@
+.overlay {
+	background: rgba(0, 0, 0, 0.5);
+	background-size: cover;
+	/*min-height: 490px;*/
+	width: 100%;	
+}
+
+
 .cover_container {
     background-color: #FFE354;
+    margin-top: -1.5rem;
 }
 
 .cover_title {
     color: #fff;
-    font-size: 65px;
+    font-size: 37px;
     padding-top: 4rem;
     position: relative;
-    left: 5rem;
+    left: 0rem;
 }
 
 .sub_title {
     color: #fff;
-    font-size: 44px;
-    margin-top: -3rem;
+    font-size: 33px;
+    margin-top: -2rem;
     margin-bottom: 5rem;
     position: relative;
-    left: 5rem;
+    left: 1rem;
 }
 
 .cover_title , .sub_title {
@@ -26,28 +35,32 @@
 }
 
 .cover_container img {
-    margin-left: 19em;
-    max-width: 56%;  
+    margin-left: 3em;
+    max-width: 78%;  
     height: auto;  
 
 }
 /**END OF COVER INTRO**/
 
+.header {
+    padding: 23px
+}
 .about {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -1.3rem;
     height: 50%;
+    background-color: #7BC0F5;
 }
 
 .about_container {
-    background-color: #7BC0F5;
+  margin-top: 23px;
    /* display: flex;*/
    /*align-items: center;*/
     /*justify-content: center;*/
     margin-top: 1.3rem; 
-    height: 34rem;
+    height: 42.4rem;
 }
 
 .about_title {
@@ -58,7 +71,7 @@
     font-size: 44px;
     /* margin-left: 32rem;   */
     position: relative;
-    left: 32rem;
+    left: 8rem;
     margin-top: 5rem;
 }
 
@@ -68,11 +81,11 @@
     margin-bottom: 4rem;
     /* margin-left: 23rem; */
     position: relative;
-    left: 23rem;
+    left: 3rem;
     color: #fff;
     font-size: 20px;
    word-wrap: break-word;
-   width: 44%;
+   width: 78%;
 }
 
 /* .btn {
@@ -97,12 +110,12 @@
 
 .btn-info {
     position: relative;
-    left: 32rem;
+    left: 7rem;
     /* margin-left: 32rem; */
     background-color: #7BC0F5;
     border: 4px solid white;
     color: #fff;
-    font-size: 16px;
+    font-size: 21px;
     cursor: pointer;
     width: 10rem;
     padding: 12px;
@@ -113,22 +126,441 @@
 
 
 .about img {
+    margin-top: 3rem;
+    justify-content: flex-end;
+    width: 70%;
+    position: relative;
+    left: 5rem;
+} 
+
+/**END OF ABOUT SECTION**/
+
+
+.baby_animals {
+    background-color: #fff;
+}
+
+.baby_animals_container {
+    margin-top: 5rem;
+}
+
+.baby_animals_title {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 58%;
+    position: relative;
+    left: 5.4rem;
+}
+
+.lelo {
+    display: flex;
+    position: relative;
+    left: 13rem;
+    margin-bottom: 15rem;
+    /* justify-content: space-between; */
+}
+
+.lelo img {
+    width: 48%;  
+    height: 18rem;  
+    position: relative;
+    left: -7.0rem;
+}
+
+.first_pup_name {
+    font-size: 39px;
+    position: relative;
+    margin-top: 21rem;
+    margin-left: -15rem;
+}
+
+.lelo p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: -10rem;
+    top: 24rem;
+    word-wrap: break-word;
+    width: 68%;
+    line-height: 23px;
+}
+
+
+.btn-yellow {
+    position: relative;
+    left: 7rem;
+    background-color: #FFE354;
+    color: #fff;
+    font-size: 21px;
+    cursor: pointer;
+    width: 11rem;
+    height: 3.6rem;
+    padding: 12px;
+    /* border-radius: 33px; */
+    border-radius: 13px;
+    position:relative;
+    top: 1rem;
+  
+   
+
+}
+
+
+.spam img {
+    width: 60%;  
+    height: 18rem;  
+    position: relative;
+    left: 6.0rem;
+    margin-top: 13rem;
+}
+
+.second_pup_name  {
+    font-size: 39px;
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.spam p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 4.5rem;
+    top: 0.6rem;
+    word-wrap: break-word;
+    width: 68%;
+    line-height: 23px;
+}
+
+.btn-blue {
+    position: relative;
+    left: 8rem;
+    background-color: #4A8BEB;
+    color: #fff;
+    font-size: 21px;
+    cursor: pointer;
+    width: 10rem;
+    padding: 12px;
+    /* border-radius: 33px; */
+    border-radius: 13px;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+
+}
+
+
+.bella {
+    margin-top: -18rem;
+}
+
+.bella img {
+    width: 85%;  
+    height: 18rem;  
+    position: relative;
+    left: 4.3rem;
+    margin-top: 21rem;
+}
+
+.kitten_name  {
+    font-size: 39px;
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.bella p{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    left: 4.5rem;
+    top: 0.6rem;
+    word-wrap: break-word;
+    width: 68%;
+    line-height: 23px;
+}
+
+
+
+
+.btn-pink {
+    position: relative;
+    left: 7.4rem;
+    margin-top: 2rem; 
+    margin-bottom: 7rem;
+    background-color: #E270A4;
+    color: #fff;
+    font-size: 21px;
+    cursor: pointer;
+    width: 10rem;
+    padding: 12px;
+    border-radius: 13px;
+
+}
+
+/**END OF SMALL ANIMAL SECTION**/
+
+.adult_animals_container {
+    height: 15rem;
+}
+
+.adult_animals_title {
+    font-size: 44px;
+    color: #fff;
+    position: relative;
+    top: -54em;
+    margin-left: 4.7rem;
+  
+    
+}
+
+.scotty img, 
+.reige img,
+.mona img {
+    max-width: 62%;  
+    height: auto;  
+    position: relative;
+    left: 5rem;
+}
+
+.first_dog_name,
+.second_dog_name, .cat_name {
+    font-size: 39px;
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 9rem;
+    color: #fff;
+}
+
+.scotty, 
+.reige,
+.mona {
+    margin-bottom: 10rem;
+}
+
+.scotty p {
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 75%;
+    position: relative;
+    left: 3rem;
+    text-align: center;
+    color: #fff;
+    line-height: 23px;
+}
+
+.reige p {
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 73%;
+    position: relative;
+    left: 3rem;
+    text-align: center;
+    color: #fff;
+    line-height: 23px;
+}
+
+.mona p {
+    font-size: 20px;
+    word-wrap: break-word;
+    width: 73%;
+    position: relative;
+    left: 3rem;
+    text-align: center;
+    color: #fff;
+    line-height: 23px;
+}
+
+ .parallax {
+    background-image: url("../img/parallax.png");
+  /* Set a specific height */
+  min-height: 290vh; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}  
+
+/**END OF ADULT ANIMAL SECTION**/
+
+
+/* .charity_container img {
+    margin-left: 3rem;
+    width: 55%;
+    margin-top: 5rem;
+} */
+
+ .pomeranian img {
+    margin-top: 8rem;
+    margin-left: 3rem;
+    width: 75%;
+}
+
+.charity_img {
+    margin-top: 4rem;
+    margin-left: 7rem;
+    width: 45%;
+}
+
+/**END OF CHARITY SECTION**/
+
+/* .footer_content {
+   display: flex;
+   color: #fff;
+}
+
+.address h4 {
+    color: #fff;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.cover_container {
+    background-color: #FFE354;
+}
+
+.cover_title {
+    color: #fff;
+    font-size: 65px;
+    padding-top: 4rem;
+    position: relative;
+    left: 5rem;
+} */
+
+/* .sub_title {
+    color: #fff;
+    font-size: 44px;
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+    position: relative;
+    left: 5rem;
+}
+
+.cover_title , .sub_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover_container img {
+    margin-left: 19em;
+    max-width: 56%;  
+    height: auto;  
+
+} */
+/**END OF COVER INTRO**/
+
+/* .about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1.3rem;
+    height: 50%;
+} */
+
+/* .about_container {
+    background-color: #7BC0F5; */
+                    /* display: flex;*/
+                    /*align-items: center;*/
+                        /*justify-content: center;*/
+    /* margin-top: 1.3rem; 
+    height: 34rem;
+} */
+
+/* .about_title {
+
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 44px; */
+                 /* margin-left: 32rem;   */
+    /* position: relative;
+    left: 32rem;
+    margin-top: 5rem;
+} */
+
+/* .about p  {
+    text-align: center;
+    margin-top: 1rem; */
+    /* margin-bottom: 4rem; */
+                 /* margin-left: 23rem; */
+    /* position: relative;
+    left: 23rem;
+    color: #fff;
+    font-size: 20px;
+   word-wrap: break-word;
+   width: 44%;
+} */
+
+/* 
+.btn-info {
+    position: relative;
+    left: 32rem; */
+                /* margin-left: 32rem; */
+    /* background-color: #7BC0F5;
+    border: 4px solid white;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    width: 10rem;
+    padding: 12px;
+    border-radius: 33px;
+    margin-top: -9px;
+   
+} */
+
+/* 
+.about img {
     justify-content: flex-end;
     width: 35%;
     margin-top: -5.7rem;
     margin-left: 45rem;
-} 
+}  */
 
 /**END OF ABOUT SECTION**/
+/* .lelo {
+    display: flex;
+    position: relative;
+    left: 13rem; */
+             /* justify-content: space-between; */
+/* }
 
 .lelo img {
     width: 18%;
 }
 
-.spam img {
-    width: 24%;
+.first_pup_name {
+    font-size: 30px;
+    position: relative;
+    left: 13rem;
+    top: 39px;
+} */
+
+/* .lelo p{
+    position: relative;
+    left: 12px;
+    top: 6rem;
+    word-wrap: break-word;
+    width: 35%;
 }
 
-.bella img {
+.spam img {
+   
+    width: 24%;
+} */
+
+/* .bella img {
     width: 41%;
-}
+} */
