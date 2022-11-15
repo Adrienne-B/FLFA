@@ -89,6 +89,8 @@ textarea {
 
 
 /* General Styles */
+
+
  
 html {
   font-size: 16px;
@@ -99,6 +101,7 @@ body {
   /*background-color: white;*/
   font-size: 1em;
  /* color: #e2e3ed;*/
+
 }
 
 html, body {
@@ -133,8 +136,9 @@ h2 {
  
 h3{
   font-weight: 500;
-  font-size: 1.125em;
-  margin: 20px 0;
+  /* font-size: 1.125em; */
+  margin: 20px 0; 
+  color: #fff;
 	/*This is for the contact title for the footer*/
 }
 
@@ -198,7 +202,7 @@ header nav {
   justify-content: space-around;
 	/*margin: 0 27px;*/
   text-transform: uppercase;
-  width: 100%; /*Made the links have space.*/	
+  /*width: 100%; *//*Made the links have space.*/	
 }
 
 header nav ul {
@@ -323,11 +327,9 @@ nav li{
 /* put nav link that is for desktop as none so that the regular nav wont show in mobile. Hamburger should only appear*/
 }
 
-
-
 #menu-bar{
-background-color: black;
-height: 7rem;
+/* background-color: black; */
+height: 2rem;
 margin-left: -1rem;
 padding-bottom: 1.3rem;
 width: 107%;
@@ -336,14 +338,18 @@ width: 107%;
 #nav {
 padding-left: 14rem;
 padding-bottom: 2rem;
+margin-right: 0.08rem;
 }	
 
 #nav li {
  font-size: 1.8rem;
 margin-right: -55rem;
- padding-top: 4rem;
+ /* padding-top: 4rem; */
+ padding-top: 5.3rem;
+ 
 }
-  
+
+
 
 
 
@@ -352,9 +358,15 @@ header li a:hover,
 header li:active {
 	background: rgba(0, 0, 0, 0.6);
   /*  background-color: #527158;*/
-	color: greenyellow;
+	/* color: greenyellow; */
+  color: #E270A4;
 	padding: 1.2rem;
 }
+
+
+
+
+
 
 .contact, .contact-container i:hover,
 .contact, .contact-container i:active {
@@ -366,7 +378,16 @@ header li:active {
     transform:scale(1.3);	
 }
 
+/* #nav li a {
+	
+  padding: 10px;
+  display: block;
+  white-space: nowrap;
+  float: none;
+  width: 130px;
+  } */
 
+/*GET BACK TOTHIS ABOVE FOR HAMBURGER EFFECT.*/
 
 
 .cover_container {
@@ -376,19 +397,21 @@ header li:active {
 
 .cover_title {
     color: #fff;
-    font-size: 29px;
+    font-size: 35px;
     padding-top: 4rem;
     position: relative;
-    left: -0.4rem;
+    left: -0.1rem;
+    top: 1rem;
 }
 
 .sub_title {
     color: #fff;
-    font-size: 27px;
-    margin-top: -2rem;
+    font-size: 30px;
     margin-bottom: 5rem;
+    margin-top: -1.9rem;
     position: relative;
     left: 0rem;
+    top: 1rem;
 }
 
 .cover_title , .sub_title {
@@ -398,79 +421,78 @@ header li:active {
 }
 
 .cover_container img {
-    margin-left: 4em;
-    max-width: 65%;  
+    margin-left: 2em;
+    max-width: 82%;  
     height: auto;  
 
 }
+
+
 /**END OF COVER INTRO**/
+
 
 .about {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -1.3rem;
     height: 50%;
+    margin-top: -1.3rem;
 }
 
 .about_container {
     background-color: #7BC0F5;
-   /* display: flex;*/
-   /*align-items: center;*/
-    /*justify-content: center;*/
+    height: 43.3rem;
     margin-top: 1.3rem; 
-    height: 44.2rem;
 }
 
 .about_title {
-
     align-items: center;
     justify-content: center;
     color: #fff;
-    font-size: 44px;
+    font-size: 36px;
     /* margin-left: 32rem;   */
-    position: relative;
-    left: 6.5rem;
     margin-top: 5rem;
+    position: relative;
+    left: 7.5rem;  
 }
 
 .about p  {
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
-    /* margin-left: 23rem; */
-    position: relative;
-    left: 3.6rem;
     color: #fff;
     font-size: 20px;
-   word-wrap: break-word;
-   width: 66%;
+    left: 3.9rem;
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    position: relative;
+    /* margin-left: 23rem; */
+    text-align: center;
+    word-wrap: break-word;
+    width: 66%;
 }
 
 .btn-info {
-    position: relative;
-    left: 6.9rem;
     /* margin-left: 32rem; */
     background-color: #7BC0F5;
     border: 4px solid white;
-    color: #fff;
-    font-size: 21px;
-    cursor: pointer;
-    width: 10rem;
-    padding: 12px;
     border-radius: 33px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 21px;
     margin-top: -9px;
-   
+    padding: 12px;
+    position: relative;
+    left: 6.9rem;
+    width: 10rem;
 }
-
 
 .about img {
     margin-top: 3rem;
     justify-content: flex-end;
     width: 70%;
     position: relative;
-    left: 5rem;
+    left: 4rem;
+    top: -0.2rem
 } 
+
 
 /**END OF ABOUT SECTION**/
 
@@ -480,36 +502,38 @@ header li:active {
 }
 
 .baby_animals_container {
-    margin-top: 5rem;
+    margin-top: 5rem; 
 }
 
 .baby_animals_title {
-    text-align: center;
-    font-size: 44px;
+    font-size: 36px;
     font-weight: 600;
+    left: 4.5rem;
+    margin-top: 5rem;
+    position: relative;
+    text-align: center;
     word-wrap: break-word;
     width: 58%;
-    position: relative;
-    left: 4.5rem;
 }
 
 .lelo {
     display: flex;
+    margin-bottom: 15rem;
     position: relative;
     left: 13rem;
-    margin-bottom: 15rem;
     /* justify-content: space-between; */
 }
 
 .lelo img {
-    width: 48%;  
-    height: 18rem;  
+    height: 17rem;  
     position: relative;
     left: -7.0rem;
+    width: 48%;  
 }
 
 .first_pup_name {
-    font-size: 39px;
+    color: #000;
+    font-size: 36px;
     position: relative;
     margin-top: 21rem;
     margin-left: -15rem;
@@ -517,90 +541,87 @@ header li:active {
 
 .lelo p{
     font-size: 20px;
-    text-align: center;
     position: relative;
     left: -10.7rem;
+    line-height: 23px;
+    text-align: center;
     top: 24rem;
     word-wrap: break-word;
     width: 68%;
-    line-height: 23px;
 }
-
 
 .btn-yellow {
-    position: relative;
-    left: 6rem;
     background-color: #FFE354;
+    border-radius: 13px;
     color: #fff;
-    font-size: 21px;
     cursor: pointer;
-    width: 11rem;
+    font-size: 21px;
     height: 3.6rem;
+    left: 6rem;
     padding: 12px;
     /* border-radius: 33px; */
-    border-radius: 13px;
     position:relative;
     top: 1rem;
+    width: 11rem;
 }
 
-
 .spam img {
-    width: 60%;  
-    height: 18rem;  
-    position: relative;
+    height: 17rem; 
     left: 5rem;
-    margin-top: 13rem;
+    margin-top: 13rem; 
+    position: relative;
+    width: 60%;  
 }
 
 .second_pup_name  {
-    font-size: 39px;
-    position: relative;
-    margin-top: 3rem;
+    color: #000;
+    font-size: 36px;
     margin-left: 9rem;
+    margin-top: 3rem;
+    position: relative;
 }
 
 .spam p{
     font-size: 20px;
-    text-align: center;
+    left: 4.6rem;
+    line-height: 23px;
     position: relative;
-    left: 4.4rem;
+    text-align: center;
     top: 0.6rem;
     word-wrap: break-word;
     width: 59%;
-    line-height: 23px;
 }
 
 .btn-blue {
-    position: relative;
-    left: 6.6rem;
     background-color: #4A8BEB;
-    color: #fff;
-    font-size: 21px;
-    cursor: pointer;
-    width: 10rem;
-    padding: 12px;
-    /* border-radius: 33px; */
+     /* border-radius: 33px; */
     border-radius: 13px;
-    margin-top: 2rem;
+    color: #fff;
+    cursor: pointer;
+    font-size: 21px;
+    left: 6.6rem;
     margin-bottom: 6rem;
-
+    margin-top: 2rem;
+    padding: 12px;
+    position: relative;
+    width: 10rem;
 }
-
 
 .bella {
     margin-top: -18rem;
 }
 
 .bella img {
-    width: 85%;  
     height: 18rem;  
-    position: relative;
     left: 3.1rem;
+    position: relative;
     margin-top: 21rem;
+    width: 85%;  
 }
 
 .kitten_name  {
-    font-size: 39px;
+    color: #000;
+    font-size: 36px;
     position: relative;
     margin-top: 3rem;
     margin-left: 9rem;
@@ -608,107 +629,107 @@ header li:active {
 
 .bella p{
     font-size: 20px;
-    text-align: center;
+    left: 4.9rem;
+    line-height: 23px;
     position: relative;
-    left: 4.5rem;
+    text-align: center;
     top: 0.6rem;
     word-wrap: break-word;
     width: 59%;
-    line-height: 23px;
 }
 
-
 .btn-pink {
-    position: relative;
+    background-color: #E270A4;
+    border-radius: 13px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 21px;
     left: 6.9rem;
     margin-top: 2rem; 
     margin-bottom: 7rem;
-    background-color: #E270A4;
-    color: #fff;
-    font-size: 21px;
-    cursor: pointer;
-    width: 10rem;
     padding: 12px;
-    border-radius: 13px;
-
+    position: relative;
+    width: 10rem;
 }
+
 
 /**END OF SMALL ANIMAL SECTION**/
 
-/* .adult_animals_container {
-    height: 15rem;
-}
-
-.adult_animals_title {
-    font-size: 44px;
-    color: #fff;
-    position: relative;
-    top: -54em;
-    margin-left: 4.1rem;
-  
-    
-}
-
-.scotty img, 
-.reige img,
-.mona img {
-    max-width: 62%;  
-    height: auto;  
-    position: relative;
-    left: 4.2rem;
-}
-
-.first_dog_name,
-.second_dog_name, .cat_name {
-    font-size: 39px;
-    position: relative;
-    margin-top: 3rem;
-    margin-left: 9rem;
-    color: #fff;
-}
-
-.scotty, 
-.reige,
-.mona {
-    margin-bottom: 10rem;
-}
-
-.scotty p {
-
-}*/
-
-
-
  .parallax {
-    background-image: url("../img/parallax.png");
-  /* Set a specific height */
-  min-height: 290vh; 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  background-attachment: fixed;  /* Create the parallax scrolling effect */
+   min-height: 290vh;  /* Set a specific height */
+  background-image: url("../img/parallax.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }   
 
-
-
-
-
 .adult_animals h2 {
+  color: #fff;
+  font-size: 36px;
   margin-bottom: 60px;
-}
-
-.adult_animals h2 {
-  margin-bottom: 60px;
-  font-size: 33px;
+  /* margin-top: 5rem; */
   position: relative;
-  left: 3.4rem;
+  left: 5.4rem;
+  top: 7.6rem
 }
 
 .adult_animals article {
   width: 63%;
   margin: 30px 0;
+  position: relative;
+  top: 9rem;
 }
+/* .fontawesome-icon .reige {
+  position: relative;
+  top: 8rem;
+} */
+
+.features-items .reige p {
+	margin-bottom: 5rem;
+}
+
+
+
+
+.fontawesome-icon img {
+  position: relative;
+  top: 6rem;
+}
+.adult_animals .first_dog_name {
+  color: #fff;
+  font-size: 2.5rem;
+  position: relative;
+  left: 3rem;
+  top: 7rem;
+}
+
+.reige_description p{
+  position: relative;
+  top: 4.5rem;
+}
+.adult_animals .second_dog_name {
+  color: #fff;
+  font-size: 2.5rem;
+  position: relative;
+  left: 3rem;
+  top: 8rem;
+}
+
+.adult_animals .cat_name {
+  color: #fff;
+  font-size: 2.5rem;
+  position: relative;
+  left: 3rem;
+  top: 8rem;
+}
+
+
+.fontawesome-icon .mona {
+  position: relative;
+  top: 8rem;
+}
+
 
 .adult_animals .features-items {
   display: flex;
@@ -717,100 +738,97 @@ header li:active {
   flex-flow: row wrap;
 }
 
-/* .adult_animals i {
-  font-size: 3.75em;
-  margin-bottom: 40px;
-} */
-
 .scotty p {
-  font-size: 20px;
+ font-size: 20px; 
+  left: 3.7rem;
+  /* color: #fff; */
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+  top: 3rem;
   word-wrap: break-word;
   width: 67%;
-  position: relative;
-  left: 3.7rem;
-  text-align: center;
-  color: #fff;
-  line-height: 23px;
 }
-
 
 .reige p {
-  font-size: 20px;
-  word-wrap: break-word;
-  width: 62%;
-  position: relative;
+  /* font-size: 20px; */
+
   left: 4.1rem;
-  text-align: center;
-  color: #fff;
   line-height: 23px;
+  text-align: center;
+  word-wrap: break-word;
+  width: 63%;
+  /* color: #fff; */
 }
 
-.mona p {
-  font-size: 20px;
-  word-wrap: break-word;
-  width: 61%;
+.adult_animals .mona p {
+  /* font-size: 20px; */
   position: relative;
   left: 4.4rem;
-  text-align: center;
-  color: #fff;
   line-height: 23px;
-}*/
+  text-align: center;
+  word-wrap: break-word;
+  width: 61%;
+}
 
 
 .adult_animals p {
+  font-size: 20px;
   text-align: center;
   margin: 0;
   position: relative;
-  top: -2.5rem;
+  top: 7.5rem;
+  color: #fff;
+  /* word-wrap: break-word;
+  width: 86%; */
 }
+
+
 /**END OF ADULT ANIMAL SECTION**/
-
-
- /* .charity_container img {
-    margin-left: 3rem;
-    width: 55%;
-    margin-top: 5rem;
-}  */
-
-
-
-
 
 
 .charity_section {
   background-color: #fff;
   display: flex;
-  justify-content: center;
   flex-flow: row wrap;
+  justify-content: center;
   padding-top: 9rem;
-
 }
 
 .charity_section  h2 {
-  margin-bottom: 40px;
   line-height: 1;
+  margin-bottom: 40px;
 }
 
 .charity_section  h3 {
-  width: 55%;
   margin: 20px 0;
+  width: 55%;
 }
 
 .charity_section .pomeranian {
-  width: 71%;
   position: relative;
-  left: 3rem;
+  left: 3.4rem;
   top: -4rem;
+  width: 71%;
 }
 
 .charity_section .charity {
-  width: 50%;
   position: relative;
   left: 5.4rem;
+  width: 50%;
 }
 
 
+/**END OF CHARITY SECTION**/
 
+
+.footer-content h4 {
+  color: #fff;
+  font-size: 24px;
+  left: 0.1rem;
+  position: relative;
+  top: 1.2rem;
+}   
 
 
 
@@ -919,55 +937,68 @@ header li:active {
   padding-bottom: 3rem;
 } */
 
-  .logo_flfa img {
-    width: 6.7vh;  
-      height: auto;  
+header {
+    padding: 27px 20px;
+}
+
+.logo_flfa img {
+    height: auto;  
+    /* left: 2.4rem; */
     position:relative;
     top: 13px;
-    /* left: 2.4rem; */
-    left: -17rem;
-  }
+    left: 12rem;
+    width: 6.7vh;  
+}
+
+#nav {
+    margin-right: 2.4rem; /*keeps drop down align*/
+}
 
  #menu  {
     position: relative;
-    left: 22rem;
-    width: 85%;
+    left: 2rem;
     top: -4px;
+    width: 85%;
   }
 
-  #bar1, #bar2, #bar3 {
-    width: 5rem;
+ #bar1, #bar2, #bar3 {
     height: 5px;
     margin-top: 9px;
     position: relative;
     top: 1.5rem;
-  }
+    width: 5rem;
+}
   /* #menu-bar {
     position: relative;
     left: 45rem;
   } */
 
-  .cover_container {
+.cover_container {
     margin-top: -2.7rem;
-}
-  .cover_container img {
-    margin-left: 3em;
-    max-width: 72%;  
-    height: auto;  
 }
 
 .cover_title {
   font-size: 4rem;
   position: relative;
-  left: -3.9rem;
+  left: 0.1rem;
 }
 
 .sub_title {
   font-size: 3.2rem;
   position: relative;
   top: -1rem;
-  left: -3.9rem;
+  left: 0.1rem;
 }
+
+.cover_container img {
+  margin-left: 5em;
+  max-width: 78%;  
+  height: auto;  
+}
+
+
+/**END OF COVER SECTION**/
+
 
 .about_container {
   /* display: flex; */
@@ -978,35 +1009,37 @@ header li:active {
   /* justify-content: center; */
   font-size: 3.2rem;
   position: relative;
-  left: 14rem;
+  left: 17rem;
   top: 4rem;
 }
 
 .about p {
   font-size: 33px;
   position: relative;
-  left: 4rem;
+  left: 8rem;
   top: 5rem;
 }
 
 .btn-info {
-  width: 16.7rem;
+  font-size: 28px;
   height: 5.6rem;
   position: relative;
-  left: 13rem;
+  left: 16rem;
   top: 9rem;
-  font-size: 28px;
+  width: 16.7rem;
 }
 
 .about img {
-  top: 12.7rem;
   justify-content: flex-end;
-  max-width: 66%;  
   height: 25rem;  
-  position: relative;
   left: 14rem;
+  max-width: 66%;  
+  position: relative;
   top: 11rem;
 } 
+
+
+/**END OF BABY ANIMAL SECTION**/
 
 
 .baby_animals {
@@ -1014,15 +1047,12 @@ header li:active {
 }
 
 .baby_animals_title {
-  font-size: 4.2rem;
-  position: relative;
-  left: 7rem; 
-  top: 4rem;
-
-  /* margin-bottom: 12rem;*/
+  font-size: 3.2rem;
   margin-top: 7rem; 
+  position: relative;
+  left: 10rem; 
+  top: 4rem;
 }
-
 
 .lelo {
   margin-bottom: 45rem;
@@ -1033,68 +1063,67 @@ header li:active {
 }
 
 .lelo img {
-  width: 37%;
-  height: 29rem;
+  height: 26rem;
   position: relative;
-  left: -2rem; 
-  top: 2rem;
- 
+  left: 1rem; 
+  top: 7rem;
+  width: 39%;
 }
 
 .first_pup_name {
-  font-size: 4.0rem;
+  font-size: 3.4rem;
   position: relative;
-  left: 1rem;
+  left: 4rem;
   top: 16rem;
 }
 
 .lelo p {
   font-size: 33px;
   line-height: 3rem;
-  left: -19rem; 
+  left: -16rem; 
   top: 43rem;
 }
 
 .btn-yellow {
+  height: 5.6rem;
+  left: 12rem;
+  position: relative;
   top: -1rem;
   width: 16.7rem;
-  height: 5.6rem;
-  position: relative;
-  left: 12rem;
 }
 
 .spam {
   margin-top: 11rem;
 }
+
 .spam img {
-  width: 48%;
-  height: 30rem;
+  height: 27rem;
   position: relative;
-  left: 9rem;  
+  left: 14rem;  
+  width: 48%;
 }
 
 .second_pup_name {
-  font-size: 4.0rem;
+  font-size: 3.4rem;
   position: relative;
-  left: 7rem;
+  left: 10rem;
   top: 3rem;
 }
 
 .spam p {
   font-size: 33px;
   line-height: 3rem;
-  left: 7.9rem; 
+  left: 12.4rem; 
   top: 4rem;
   width: 49%;
-
 }
 
 .btn-blue {
+  height: 5.6rem;
+  left: 12rem;
+  position: relative;
   top: 6rem;
   width: 16.7rem;
-  height: 5.6rem;
-  position: relative;
-  left: 12rem;
 }
 
 .bella {
@@ -1102,99 +1131,42 @@ header li:active {
 }
 
 .bella img {
-  width: 70%;
   height: 29rem;
   position: relative;
-  left: 6rem; 
+  left: 9rem;
+  width: 70%;
 }
 
-
 .kitten_name {
-  font-size: 4.0rem;
+  font-size: 3.4rem;
   position: relative;
-  left: 7rem;
+  left: 9.7rem;
   top: 3rem;
 }
 
 .bella p {
   font-size: 33px;
   line-height: 3rem;
-  left: 8rem; 
+  left:11rem; 
   top: 4rem;
   width: 52%;
-
 }
 
 .btn-pink {
-  top: 6rem;
-  width: 16.7rem;
   height: 5.6rem;
   position: relative;
   left: 12rem;
+  top: 6rem;
+  width: 16.7rem;
 }
 
-
-/* 
-.adult_animals_title{
+.btn-yellow, .btn-blue, .btn-pink {
   position: relative;
-  top: -61.7em;
-  font-size: 4.2rem;
-  left: 4rem;
-}
-
-.scotty img, .reige img,  .mona img {
-  max-width: 51%;
-  height: auto;
-  position: relative;
-  left: 8rem;
-  top: -16rem;
-
-}
-
-.first_dog_name, .second_dog_name, .cat_name {
-  font-size: 4.6rem;
-  position: relative;
-  left: 6rem;
-  top: -13rem;
-}
-
-.scotty p {
-  font-size: 33px;
-  line-height: 3rem;
-  position: relative;
-  left: 4rem;
-  top: -11rem;
-}
-
-.reige p {
-  font-size: 33px;
-  line-height: 3rem;
-  position: relative;
-  left: 5rem;
-  top: -11rem;
-}
-
-.mona p {
-  font-size: 33px;
-  line-height: 3rem;
-  position: relative;
-  left: 5rem;
-  top: -11rem;
+  left: 15rem;
 }
 
 
-.scotty {
-  margin-top: 32rem;
-}
-
-.reige {
-  margin-top: 22rem;
-}
-.mona {
-  margin-top: 17rem;
-} */
-
-
+/**END OF ADULT ANIMAL SECTION**/
 
 
 .adult_animals h2 {
@@ -1202,7 +1174,8 @@ header li:active {
   margin-top: 60px;
   font-size: 43px;
   position: relative;
-  left: 7.4rem;
+  left: 16.4rem;
+  color: #fff;
 }
 
 .adult_animals article {
@@ -1222,67 +1195,85 @@ header li:active {
   left: -3px;
 }
 
-/* .fontawesome-icon img {
+.adult_animals .first_dog_name {
+  font-size: 3.5rem;
   position: relative;
-  top: 3rem;
-  left: 7rem;
-} */
-/* .adult_animals i {
-  font-size: 3.75em;
-  margin-bottom: 40px;
-} */
-/* .adult_animals-description1 p {
-  font-size: 33%;
-  word-wrap: break-word;
-  width: 45%;
-} */
+  left: 10rem;
+}
+
+
+.fontawesome-icon .reige  {
+  position: relative;
+  left: -3px;
+  top:8rem;
+}
+
+.adult_animals .second_dog_name {
+  font-size: 3.5rem;
+  position: relative;
+  left: 10rem;
+}
+
+.adult_animals .cat_name {
+  font-size: 3.5rem;
+  position: relative;
+  left: 10rem;
+}
+
+.first_dog_name p {
+  margin-bottom: 5rem;
+}
+
+.adult_animals  img {
+  position: relative;
+  top: 4rem;
+}
+
+.adult_animals .reige_description p {
+  margin-bottom: 14rem;
+}
 
  .adult_animals p {
+  bottom: 14rem;
+  /* word-wrap:break-word;
+  width: 40rem; */  /*caused an issue for the desktop layout*/
+  color: #fff;
+  font-size: 35px;
+  margin: 0; 
+  line-height: 2.5rem;
+  position: relative;
+  text-align: center;
+} 
+
+
+/* .adult_animals p {
   font-size: 35px;
   text-align: center;
   margin: 0; 
   color: #fff;
-              /* word-wrap:break-word;
-              width: 40rem; */  /*caused an issue for the desktop layout*/
-
-   /* position: relative;
-  left: -11rem;
-  margin-bottom: 8rem;; */
-} 
-
+  line-height: 2.5rem;
+  position: relative;
+  bottom: 14rem;
+} */
 
 .fontawesome-icon.reige img {
   height: 3rem;
 }
 
-.adult_animals-description2 p {
-word-wrap: break-word;
-width: 23%;
-color: #fff;
-}
-
 .parallax {
   /* min-height: 360vh; */
   padding-top: 14rem;
-  padding-bottom: 21rem;
+  padding-bottom: 45rem;
 }
-
 
 .charity {
     height: 139vh;
   }
   
-
-/* .charity_container {
-  margin-top: 26px;
- height: 94vh;
-}
-*/
 .charity_section  {
   padding-top: 23rem;
   padding-bottom: 23rem;
 }
-
 
 .charity_section article {
   display: flex;
@@ -1299,26 +1290,26 @@ color: #fff;
 }
 
 .charity_section h3 {
-  width: 75%;
   margin: 0;
+  width: 75%;
 }
 
 
 .charity_section .pomeranian {
-width: 99%;
-position: relative;
-left: 9rem;
-top: -13rem;
+  position: relative;
+  left: 10rem;
+  top: -13rem;
+  width: 123%;
 }
 
 .charity_section .charity {
-width: 140%;
-height: 19rem;
-position: relative;
-left: -12rem;
-height: 24rem;
-top: 13rem; 
-    }
+  height: 19rem;
+  position: relative;
+  left: -8rem;
+  height: 24rem;
+  top: 19rem; 
+  width: 140%;
+}
 
 
 
@@ -1333,6 +1324,11 @@ footer .content-wrapper {
  
 }
 
+.content-wrapper h4 {
+  font-size: 2rem;
+ 
+}
+
 /* footer .footer-content {
   display: flex;
   justify-content: space-between;
@@ -1342,42 +1338,54 @@ footer .content-wrapper {
 
 } */
 
-.footer-content {
+/* .footer-content {
   margin-left: -10rem;
-}
-
+} */
+/*effected the spacing in desktop footer so i had to close it out.*/
 footer .contact {
   margin-bottom: 0;
 }
 
-footer h4 {
-  font-size: 1.4em;
-  margin-bottom: 40px;
-}
+
 
 footer p {
-    line-height: 1.285;
+  font-size: 1.4rem;
+   line-height: 1.285;
 }
 
 footer .social-icons {
-  width: 12.5em;
+  width: 13.5em;
   justify-content: space-between;
   position: relative;
-  left: 15rem;
+  left: 10rem;
+  top: 2rem;
 }
 
 footer .copyright {
   width: 100%;
 }
-
 }
-
-
-
 
 
 @media only screen and (min-width:1200px) {
 
+ nav ul li {
+  position: relative;
+  left: 9rem;
+}
+
+#nav_button{
+  border-radius: 25px;
+  border: 6px solid #fff;
+  padding: 9px;
+  width: 8rem;
+  height: 20px;
+  margin-left: 7rem;
+}
+
+#nav_button  a{
+  margin-left: 1.4rem;
+}
 
 #menu-bar{
 		display: none;
@@ -1386,23 +1394,26 @@ footer .copyright {
 	
 header, span{
 	font-size: 26px;
-	padding-left: 3px;
+	padding-left: 5px;
 }
 
-/* header nav { */
-	                      /*float: right;*/
-	/* padding: 46px 10px;
-} */
+.logo_flfa img {
+  /* width: 14.7vh; */
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 7px;
+  left: -15rem;
+}
 
 header nav ul {
 	margin: 0;
 	padding: 0;
 }
 	
-	
-	header nav ul li {
+header nav ul li {
 	/* font-family: 'Cormorant SC', serif; */	
-    font-family: 'Domine', serif;
+  font-family: 'Domine', serif;
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 16px;
@@ -1411,218 +1422,208 @@ header nav ul {
 }	
 
 
+.cover_title {
+  font-size: 5rem;
+  left: 0rem;
+  position: relative;
+}
 
-  .logo_flfa img {
-    width: 14.7vh;
-    height: auto;
-    position: relative;
-    top: -24px;
-    left: 3rem;
-    
-  }
+.sub_title {
+  font-size: 3.7rem;
+  left: 1rem;
+  top: -1rem;
+}
 
-  .cover_title {
-    font-size: 5rem;
-    position: relative;
-    left: -6rem;
-  }
+.cover_container {
+   margin-top: -3.6rem;
+}
 
-  .sub_title {
-    font-size: 3.7rem;
-    top: -2rem;
-    left: -6rem;
-
-  }
-
-  .cover_container {
-    margin-top: -3.6rem;
-  }
-
-  .cover_container img {
-    margin-left: 7rem;
-    max-width: 65%;
-    height: auto;
-
-  }
-	.about title {
-    position: relative;
-    left: 26rem;
-  }
-
-  .baby_animals_title {
-    font-size: 4.2rem;
-  }
-
-  .about_container {
-    height: 54.7rem;
-  }
-
-  .about_title {
-    position: relative;
-    left: 25rem;
-  }
-
-  .about img {
-    height: 22rem;
-    position: relative;
-    left: 24rem;
-    max-width: 45%;
-    top: 1rem;
-  }
-  .about p {
-    font-size: 40px;
-    line-height: 45px;
-    left: 7rem;
-  }
-
-  .btn-info {
-    width: 14.7rem;
-    height: 4.6 rem;
-    left: 24rem;
-    font-size: 28px;
-    top: -1rem;
-  }
+.cover_container img {
+  height: auto;
+  margin-left: 14rem;
+  max-width: 65%;
+}
 
 
-  .baby_animals {
-   margin-bottom: -105rem;
-   background-image: url("../img/background.png");
-   margin-top: -7rem;
-   padding-top: 8rem;
-
-  }
-
-  .baby_animals_title {
-    position: relative;
-    top: 2em;
-    left: 16rem;
-    font-size: 4rem;
-
-  }
-
-  .lelo {
-    position: relative;
-    top: 13rem;
-    left: 6rem;
-  }
-
-  .lelo img {
-    width: 18%;
-    height: 17rem;
-    position: relative;
-    left: -2rem;
-  }
-
-  .first_pup_name {
-    font-size: 3rem;
-    position: relative;
-    left: 32rem;
-    top: -18rem;
-  }
+/**END OF COVER SECTION**/
 
 
-  .lelo p {
-    font-size: 26px;
-    line-height: 2rem;
-    left: 14rem;
-    top: 8rem;
-    text-align: left;
-    width: 45%;
-  }
+.about title {
+  position: relative;
+  left: 31rem;
+}
 
+.baby_animals_title {
+  font-size: 4.2rem;
+}
 
-  .btn-yellow {
-    position: relative;
-    top: -35rem;
-    left: 34rem;
-    width: 15%;
-    height: 4rem;
-  }
+.about_container {
+  height: 54.7rem;
+}
 
+.about_title {
+  position: relative;
+  left: 30rem;
+}
 
- 
+.about img {
+  height: 22rem;
+  left: 28rem;
+  max-width: 45%;
+  position: relative;
+  top: 1rem;
+}
 
-  .spam{
-    position: relative;
-    left: -6rem;
-    top: 8rem;
-  }
+.about p {
+  font-size: 40px;
+  left: 13rem;
+  line-height: 45px;
+}
+
+.btn-info {
+  font-size: 28px;
+  height: 4.6 rem;
+  left: 29rem;
+  top: -1rem;
+  width: 14.7rem;
+}
+
+article {
+  position: relative;
+  left: 6rem;
+}
+
+.baby_animals {
+  background-image: url("../img/background.png");
+  margin-bottom: -101rem;
+  margin-top: -7rem;
+  padding-top: 8rem;
+}
+
+.baby_animals_title {
+  font-size: 4rem;
+  position: relative;
+  top: 1em;
+  left: 16rem;
+}
+
+.lelo {
+  position: relative;
+  left: 6rem;
+  top: 13rem;
+}
+
+.lelo img {
+  height: 19rem;
+  position: relative;
+  left: 5rem;
+  top: 4rem;
+  width: 20%;
+}
+
+.first_pup_name {
+  font-size: 3rem;
+  position: relative;
+  left: 42rem;
+  top: -18rem;
+}
+
+.lelo p {
+  font-size: 26px;
+  line-height: 2rem;
+  left: 23rem;
+  top: 8rem;
+  text-align: left;
+  width: 45%;
+}
+
+.btn-yellow {
+  position: relative;
+  height: 4rem;
+  left: 44rem;
+  top: -35rem;
+  width: 15%;
+}
+
+.spam{
+  position: relative;
+  left: -6rem;
+  top: 8rem;
+}
 
 .second_pup_name {
   font-size: 3rem;
   position: relative;
-  left: 12rem;
+  left: 19rem;
   top: -70rem;
-
 }
-
 
 .spam img {
-  width: 24%;
   height: 18rem;
   position: relative;
-  left: 48rem;
+  left: 56rem;
   top: -50rem;
+  width: 24%;
 }
-  .spam p {
-    font-size: 26px;
-    line-height: 2rem;
-    text-align: left;
-    word-wrap: break-word;
-    width: 40%;
-    top: -69rem;
-    position: relative;
-    left: 12rem;
-  }
 
-  .btn-blue {
-    position: relative;
-    top: -68rem;
-    left: 17rem;
-    width: 15%;
-    height: 4rem;
-  }
+.spam p {
+  font-size: 26px;
+  left: 19rem;
+  line-height: 2rem;
+  position: relative;
+  text-align: left;
+  top: -69rem;
+  word-wrap: break-word;
+  width: 40%;
+}
 
+.btn-blue {
+  height: 4rem;
+  left: 25rem;
+  position: relative;
+  top: -68rem;
+  width: 15%;
+}
 
+.bella{
+  position: relative;
+  top: 7rem;
+}
 
-  .bella{
-    position: relative;
-    top: 7rem;
-  }
-
-  .bella img {
-  width: 35%;
-  height: 21rem;
+.bella img {
+  height: 23rem;
+  left: 7rem;
   top: -80rem;
-  left: 3rem;
+  width: 38%;
+}
 
-  }
+.kitten_name {
+  font-size: 3rem;
+  left: 41rem;
+  position: relative;
+  top: -97rem;
+}
 
-  .kitten_name {
-    font-size: 3rem;
-    position: relative;
-    top: -97rem;
-    left: 34rem;
-  }
+.bella p {
+  font-size: 26px;
+  left: 38rem;
+  line-height: 2rem;
+  text-align: right;
+  top: -97rem;
+  width: 39%;
+}
 
-  .bella p {
-    font-size: 26px;
-    line-height: 2rem;
-    text-align: right;
-    width: 39%;
-    left: 28rem;
-    top: -97rem;
-  }
-
-  .btn-pink {
-    position: relative;
-    top: -96rem;
-    width: 15%;
-    height: 4rem;
-    left: 42rem;
-  }
+.btn-pink {
+  height: 4rem;
+  left: 47rem;
+  position: relative;
+  top: -96rem;
+  width: 15%;
+}
 
 
+
+/**END OF BABY ANIMAL SECTION**/
 
 /* Aside */
 
@@ -1676,6 +1677,17 @@ aside .adult_animals_container .form {
 }
 
 
+.adult_animals .second_dog_name {
+  position: relative;
+  top: 4rem;
+}
+
+.adult_animals .cat_name {
+  position: relative;
+  top: 4rem;
+}
+
+
 
 .fontawesome-icon .reige {
   width: 77%;
@@ -1694,27 +1706,27 @@ aside .adult_animals_container .form {
   top: -.3rem;
 }
 
-.adult_animals_title h3 {
-  width: 90%;
+.adult_animals_title h2 {
+  /* width: 90%; */
   position: relative;
-  left: 9rem;
+  left: 19rem;
   font-size: 44px;
-  color: pink;
+  color: #fff;
 }
 
 .adult_animals h3 {
   width: 90%;
   position: relative;
-  left: 29rem;
+  left: 9rem;
   font-size: 44px;
   color: #fff;
 }
 
 .adult_animals h2 {
-  font-size: 32px;
+  font-size: 44px;
   position: relative;
-  left: 1rem;
-  width: 90%;
+  left: 29rem;
+ 
 }
 
 
@@ -1722,10 +1734,12 @@ aside .adult_animals_container .form {
 .adult_animals p {
   font-size: 26px;
   color: #fff;
+  line-height: 30px;
 
 }
 .adult_animals article {
   flex-basis: 33%;
+  left: -1rem;
 }
 
 
@@ -1739,17 +1753,23 @@ aside .adult_animals_container .form {
 
 .parallax {
   background-image: url("../img/parallax.png");
-/* Set a specific height */
-min-height: 89vh; 
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  /* Set a specific height */
+  min-height: 79vh; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }   
 
 
- 
+.charity_section  {
+  width: 99%;
+  position: relative;
+  height:  3rem;
+  left: 0rem;
+  /* top: -5rem;  */
+} 
    
 .charity_section .pomeranian {
   width: 87%;
@@ -1772,11 +1792,44 @@ background-size: cover;
   footer .content-wrapper {
     /* width: 65%; */
     width: 73%; /*gave bettwer space in between */
-    margin: 40px 0;
+    margin: 5px 0;
     margin-left: 4rem; /*made them centered */
    
   }
 
+
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+   
+
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+.content-wrapper h4 {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+  }
+
+  footer p {
+      line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
+    position: relative;
+    left: -12px;
+  }
+  
+  footer .copyright {
+    width: 100%;
+  }
 
 }
 
