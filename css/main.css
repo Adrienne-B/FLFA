@@ -1471,11 +1471,13 @@ header nav ul li {
   left: 28rem;
   max-width: 45%;
   position: relative;
-  top: 1rem;
+  /* top: 1rem; */
+  top: 3.7rem;
 }
 
 .about p {
-  font-size: 40px;
+  font-size: 36px;
+  /* font-size: 40px; */
   left: 13rem;
   line-height: 45px;
 }
@@ -1529,7 +1531,8 @@ article {
 }
 
 .lelo p {
-  font-size: 26px;
+  /* font-size: 26px; */
+  font-size: 21px;
   line-height: 2rem;
   left: 23rem;
   top: 8rem;
@@ -1567,14 +1570,16 @@ article {
 }
 
 .spam p {
-  font-size: 26px;
+  /* font-size: 26px; */
+  font-size: 21px;
   left: 19rem;
   line-height: 2rem;
   position: relative;
   text-align: left;
   top: -69rem;
   word-wrap: break-word;
-  width: 40%;
+  /* width: 40%; */
+  width: 36%;
 }
 
 .btn-blue {
@@ -1605,12 +1610,14 @@ article {
 }
 
 .bella p {
-  font-size: 26px;
+  /* font-size: 26px; */
+  font-size: 21px;
   left: 38rem;
   line-height: 2rem;
   text-align: right;
   top: -97rem;
-  width: 39%;
+  /* width: 39%; */
+  width: 32%;
 }
 
 .btn-pink {
@@ -1651,6 +1658,9 @@ aside .adult_animals_container .form {
   position: relative;
   left: 3rem;
 } */
+/* .fontawesome-icon{
+  max-width: 160px
+} */
 
 .fontawesome-icon img {
   width: 39%;
@@ -1673,9 +1683,7 @@ aside .adult_animals_container .form {
 
 .first_dog_name p{
   position: relative;
-  
 }
-
 
 .adult_animals .second_dog_name {
   position: relative;
@@ -1690,12 +1698,13 @@ aside .adult_animals_container .form {
 
 
 .fontawesome-icon .reige {
-  width: 77%;
+  width: 73%;
   height: 23rem;
   position: relative;
   top: 3rem;
+  left: 3rem;
   height: 23rem;
-  top: -.3rem;
+  top: -0.3rem;
 }
 
 .fontawesome-icon .mona {
@@ -1732,9 +1741,12 @@ aside .adult_animals_container .form {
 
 
 .adult_animals p {
-  font-size: 26px;
+  /* font-size: 26px; */
+  font-size: 21px;
   color: #fff;
   line-height: 30px;
+  width: 74%;
+  margin-left: 3rem;
 
 }
 .adult_animals article {
@@ -1787,13 +1799,14 @@ aside .adult_animals_container .form {
   }
 
 
-/**END OFCHARITY SECTION**/
+/**END OF CHARITY SECTION**/
 
   /* Footer */
 footer .content-wrapper {
   margin: 5px 0;
-  margin-left: -5.5rem; /*made them centered */
+  margin-left: 1.5rem; /*made them centered */
   width: 73%; /*gave bettwer space in between */
+  padding-bottom: 9rem;
 }
 
 footer .footer-content {
@@ -1801,32 +1814,27 @@ footer .footer-content {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  
-   
-
- }
-
-
+}
 
 .content-wrapper h4 {
     font-size: 1.4em;
     margin-bottom: 40px;
-  }
+}
 
-  footer p {
-      line-height: 1.285;
-  }
+footer p {
+    line-height: 1.285;
+}
 
-  footer .social-icons {
+footer .social-icons {
     width: 12.5em;
     justify-content: space-between;
     position: relative;
     left: -12px;
-  }
+}
   
-  footer .copyright {
+ footer .copyright {
     width: 100%;
-  }
+}
 
 }
 
