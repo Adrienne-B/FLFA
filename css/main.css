@@ -1782,34 +1782,31 @@ aside .adult_animals_container .form {
   width: 99%;
   position: relative;
   height:  23rem;
-  left: 0rem;
+  left: -0rem;
  top: -5rem; 
   }
 
 
+/**END OFCHARITY SECTION**/
 
   /* Footer */
-  footer .content-wrapper {
-    /* width: 65%; */
-    width: 73%; /*gave bettwer space in between */
-    margin: 5px 0;
-    margin-left: 4rem; /*made them centered */
-   
-  }
+footer .content-wrapper {
+  margin: 5px 0;
+  margin-left: -5.5rem; /*made them centered */
+  width: 73%; /*gave bettwer space in between */
+}
 
-
-  footer .footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  
    
 
-  }
+ }
 
-  footer .contact {
-    margin-bottom: 0;
-  }
+
 
 .content-wrapper h4 {
     font-size: 1.4em;
